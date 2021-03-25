@@ -30,6 +30,5 @@ for days in dates:
         counts[days] = 1
     else:
         counts[days] += 1
-        
-print (len(dates))
+
 print(counts)
